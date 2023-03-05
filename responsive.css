@@ -68,8 +68,11 @@
         font-size: 1.5em;
     }
 
-    .head p {
-        
+    .titulo_massagem {
+        font-size: 3em;
+    }
+    .com {
+        font-size: 2em;
     }
 }
 
