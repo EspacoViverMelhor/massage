@@ -1,0 +1,218 @@
+@media (max-width:1440px)and(max-height:100px) {
+    .big {
+        height: 70.5%;
+    }
+
+    .texto_p {
+        font-size: 1.7em;
+    }
+
+    .tuitulo {
+        font-size: 3em;
+    }
+
+
+    .head p {
+        font-size: 1.7em;
+        margin-left: -7%;
+    }
+
+    .img_massa {
+        margin-left: -30%;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .big {
+        height: 61%;
+    }
+
+    .tuitulo {
+        font-size: 2em;
+    }
+
+    .head p {
+        font-size: 1em;
+        margin-left: 0%;
+        line-height: 1.5em;
+    }
+
+    .texto_p {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width:768px) {
+    .big {
+        height: 59.4%;
+    }
+
+    .texto_p {
+        font-size: 1em;
+    }
+
+    .imgs {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icons {
+        margin-top: 40%;
+    }
+
+    .back_verde {
+        margin-left: 10px;
+        width: 150px;
+        height: 65px;
+        font-size: 1.5em;
+    }
+
+    .head p {
+        
+    }
+}
+
+@media (max-width:425px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .descricao {
+        width: 45%;
+    }
+
+    .curso {
+        width: 55%;
+    }
+
+    .icons {
+        margin-top: 60%;
+    }
+
+    .efeito {
+        flex-wrap: wrap;
+    }
+
+    .titulo_massagem {
+        font-size: 2.5em;
+    }
+
+    .preco {
+        font-size: 1.5em;
+    }
+
+    .certificado {
+        flex-wrap: wrap;
+    }
+
+    .com {
+        font-size: 1.5em;
+    }
+
+    .img_psica {
+        height: 60px;
+        width: 60px;
+    }
+
+    .big {
+        height: 54.3%;
+    }
+
+    .tuitulo {
+        font-size: 1em;
+    }
+
+    .comprar {
+        font-size: 1.3em;
+        width: 220px;
+    }
+
+    .preco2 {
+        font-size: 1.7em;
+    }
+
+    .img_massa {
+        width: 100px;
+        height: 100px;
+    }
+
+    .head p {
+        font-size: 0.9em;
+    }
+
+    .euquero {
+        width: 200px;
+        font-size: 1.5em;
+    }
+
+    .qr {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .preco3 {
+        font-size: 1.5em;
+        height: 40px;
+        width: 100px;
+    }
+}
+
+@media(max-width:375px) {
+    .head p {
+        font-size: 0.7em;
+    }
+
+    .qr {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .img_massa {
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+
+    .img_psica {
+        height: 33px;
+    }
+
+    .titulo_massagem {
+        font-size: 2em;
+    }
+
+    .icons {
+        margin-top: 100%;
+    }
+
+    .comprar {
+        font-size: 1em;
+        height: 50px;
+        width: 180px;
+    }
+
+    .big {
+        height: 57.5%;
+    }
+}
+
+@media(max-width:320px) {
+    .img_massa {
+        margin-top: -2%;
+    }
+
+    .icons {
+        margin-top: 200px;
+    }
+
+    .titulo_massagem {
+        font-size: 1.8em;
+    }
+
+    .com {
+        font-size: 1em;
+    }
+
+
+}

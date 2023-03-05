@@ -270,7 +270,6 @@ header {
     transform: translateX(10px) scale(1.2);
 }
 
-
 .preco3 {
     background-color: yellow;
     height: 45px;
@@ -289,7 +288,6 @@ header {
     transition: transform 1s;
     transform: translateX(10px) scale(1.2);
 }
-
 
 .imagens {
     display: flex;
@@ -310,4 +308,8 @@ a {
 .what:hover{
     transition: transform 1s;
     transform: translateX(10px) scale(1.2);
+}
+
+.icons{
+    margin:70px;
 }
