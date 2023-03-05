@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.descricao {
+    width: 40%;
+    background-color: rgb(128, 65, 25);
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto {
+    height: 50%;
+    width: 60%;
+}
+
+.texto_p {
+    margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.imgs {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.two_img {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_meio {
+    width: 30vw;
+    text-align: center;
+}
+
+.img_final {
+    width: 30vw;
+    text-align: center;
+}
+
+#satisfacao {
+    height: 125px;
+    width: 125px;
+}
+
+.curso {
+    width: 70%;
+    background-color: #FFF3E4;
+}
+
+header {
+    height: 50%;
+}
+
+.efeito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 5%;
+}
+
+.juntin {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_verde {
+    height: 65px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ED957;
+    border-radius: 15px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.back_verde:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
+
+.titulo_massagem {
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
+
+.preco {
+    height: 40px;
+    width: 15%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.preco:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
+
+
+.certificado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_certificado {
+    text-align: center;
+}
+
+.com {
+    font-size: 2.7em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_psica {
+    height: 80px;
+    width: 100px;
+    text-align: center;
+}
+
+.ibage {
+    text-align: center;
+}
+
+.big {
+    background-image: url('docs/quiro.jpg');
+    background-size: 100% 100%;
+    height: 55%;
+    width: 97%;
+    margin-top: -2%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.comprar {
+    height: 65px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ED957;
+    border-radius: 15px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.comprar:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
+
+.preco2 {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ED957;
+    border-radius: 15px;
+    font-size: 2.5em;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.preco2:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
+
+
+.cont {
+    height: 100vh;
+    background-color: rgb(128, 65, 25);
+
+}
+
+.titulo_foot {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.tuitulo {
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 4%;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img_massa {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.main {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.qr {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.euquero {
+    height: 45px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ED957;
+    border-radius: 15px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.euquero:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
+
+
+.preco3 {
+    background-color: yellow;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.preco3:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
+
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.valido {
+    font-size: 2em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.what:hover{
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.2);
+}
